@@ -19,8 +19,8 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: black; /* Background color for the entire website, including individual sections */
-  --default-color: white; /* Default color used for the majority of the text content across the entire website */
+  --background-color: rgba(255, 255, 255, 0.621); /* Background color for the entire website, including individual sections */
+  --default-color: black; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #FFD54F; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ff0000c5; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -1111,6 +1111,7 @@ section,
 .clients .client-logo img:hover {
   filter: none;
   opacity: 1;
+  
 }
 
 @media (max-width: 640px) {
@@ -1485,7 +1486,7 @@ section,
 }
 
 .pricing .featured .pricing-item {
-  background: var(--accent-color);
+  background: var(--heading-color);
 }
 
 @media (min-width: 992px) {
@@ -1511,7 +1512,7 @@ section,
 }
 
 .pricing .featured .buy-btn:hover {
-  background: color-mix(in srgb, var(--background-color), transparent 92%);
+  background: color-mix(in srgb, var(--heading-color), transparent 92%);
 }
 
 /*--------------------------------------------------------------
@@ -1522,7 +1523,7 @@ section,
 }
 
 .faq .faq-container .faq-item {
-  background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  background-color:#FFD54F;
   position: relative;
   padding: 20px;
   margin-bottom: 20px;
@@ -1538,13 +1539,14 @@ section,
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
+  color:black;
   margin: 0 30px 0 32px;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .faq .faq-container .faq-item h3 span {
-  color: var(--accent-color);
+  color: #FFD54F;
   padding-right: 5px;
 }
 
