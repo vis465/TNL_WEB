@@ -204,7 +204,7 @@ h6 {
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 18px #FFD54F;
 }
 
 /* Global Header on Scroll
@@ -835,7 +835,7 @@ section,
 
 .hero .carousel-item:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 80%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -843,7 +843,7 @@ section,
 
 .hero .carousel-item::before {
   content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 30%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 80%);
   position: absolute;
   inset: 0;
 }
@@ -884,8 +884,8 @@ section,
 }
 
 .hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
+  color:black;
+  background: #FFD54F;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
